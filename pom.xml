@@ -8,18 +8,8 @@
     <url>http://maven.apache.org</url>
     <distributionManagement>
         <repository>
-            <releases>
-                <enabled>false</enabled>
-                <updatePolicy>always</updatePolicy>
-                <checksumPolicy>warn</checksumPolicy>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>never</updatePolicy>
-                <checksumPolicy>warn</checksumPolicy>
-            </snapshots>
-            <id>pangaea_snapshots</id>
-            <url>http://gec-maven-nexus.walmart.com/nexus/content/repositories/pangaea_snapshots</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/jaxzar/pokefusion</url>
         </repository>
     </distributionManagement>
     <dependencies>
